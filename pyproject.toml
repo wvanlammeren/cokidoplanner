@@ -1,0 +1,16 @@
+[project]
+name = "cokidoplanner"
+version = "0.1.0"
+description = "Babysitting roster planner for Cokido (web app rebuild)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["legacy", "venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

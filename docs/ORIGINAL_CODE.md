@@ -1,6 +1,6 @@
 # Cokidoplanner: original code
 
-This document describes the code as it was first imported into this repository (commits `6c43452` / `d87a087`).
+This document describes the code as it was first imported into this repository (commits `6c43452` / `d87a087`). Since rebuild step 1 these files live in `legacy/`.
 
 ## What the app does
 
