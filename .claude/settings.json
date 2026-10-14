@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(pip list:*)",
+      "Bash(python -m py_compile:*)"
+    ],
+    "deny": [
+      "Read(./gs_credentials.json)"
+    ]
+  }
+}

@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-venv/
-__pycache__/
-*.pyc
-.env
-*.json
-=======
+# Secrets (Google service-account key)
+gs_credentials.json
+
+# Claude Code local (per-user) settings
+.claude/settings.local.json
+CLAUDE.local.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -134,4 +134,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> 87496566d841e45390fb125edcdbb9a96221b4dc
